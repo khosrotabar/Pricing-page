@@ -1,0 +1,41 @@
+header div nav ul li a {
+    cursor: pointer;
+}
+
+header div nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.jambotron {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .jambotron {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (min-width: 576px) {
+    main section .container {
+        max-width: 670px;
+    }
+}
+
+@media (min-width: 992px) {
+    main .row, footer .row {
+        width: 935px;
+    }
+}
+
+@media (max-width: 992px) {
+    main .row, footer .row {
+        width: 98%;
+    }
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
